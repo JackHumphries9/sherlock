@@ -1,0 +1,32 @@
+{
+	"name": "@jackhumphries/sherlock",
+	"version": "1.0.0",
+	"description": "Optimise a whole project",
+	"main": "dist/index.js",
+	"bin": {
+		"@jackhumphries/sherlock": "bin/sherlock",
+		"sherlock": "bin/sherlock"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cli",
+		"sherlock"
+	],
+	"author": "Jack Humphries",
+	"license": "ISC",
+	"dependencies": {
+		"arg": "^5.0.0",
+		"chalk": "^4.1.1",
+		"esm": "^3.2.25",
+		"inquirer": "^8.0.0",
+		"typescript": "^4.2.4"
+	},
+	"devDependencies": {
+		"@types/node": "^15.3.1"
+	}
+}
